@@ -33,14 +33,6 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Pose Pose
-        {
-            get
-            {
-                return SteamVR_Actions.default_Pose;
-            }
-        }
-        
         public virtual SteamVR_Action_Skeleton SkeletonLeftHand
         {
             get
@@ -78,6 +70,14 @@ namespace Valve.VR
             get
             {
                 return SteamVR_Actions.default_SnapTurnRight;
+            }
+        }
+        
+        public virtual SteamVR_Action_Pose Pose
+        {
+            get
+            {
+                return SteamVR_Actions.default_Pose;
             }
         }
         
